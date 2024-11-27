@@ -38,14 +38,14 @@ This is a basic implementation of a WhatsApp bot using the [whatsapp-web.js](htt
 
 4. Update the ```number``` and ```mensagem``` variables in the script to specify the recipient and message content:
    ```js
-   const number = '1234567890'; // Replace with the recipient's phone number (including country code, without '+').
+   const number = '1234567890'; // Replace with the recipient's phone number (including country code).
    const mensagem = 'Hello world'; // Replace with your message.
    ```
 
 5. The bot will send the message to the specified recipient.
 
 ## Notes
-1. The phone number should include the country code, but exclude the "+" sign (e.g., +55112345678901).
+1. The phone number should include the country code (e.g., +55112345678901).
 
 
 
